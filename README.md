@@ -21,8 +21,11 @@ The docset will be created in the ```dist``` folder.
 
 
 2. run rake 碰到 「ArgumentError: invalid byte sequence in US-ASCII」
+
+```
 ➜  dash-ionic git:(master) ✗ export LANGUAGE=en.US.UTF-8
 ➜  dash-ionic git:(master) ✗ export LANG=en_US.UTF-8
 ➜  dash-ionic git:(master) ✗ export LANGUAGE=en_US.UTF-8
 ➜  dash-ionic git:(master) ✗ export LC_ALL=en_US.UTF-8
+```
 
